@@ -7,8 +7,7 @@ has many drawbacks since it may not contain individual variants, making it chall
 therapeutic applications. Allelic Cas-OFFinder considers individual variants along with 
 reference genome to search potential off-target sites. 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`usage` section for further information.
 
 
 
