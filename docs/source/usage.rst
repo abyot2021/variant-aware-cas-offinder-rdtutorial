@@ -6,7 +6,7 @@ Usage
 Installation to the CLI
 -----------------------
 
-To use Lumache, first install it using pip:
+To use Lumache, first install it using pip or other:
 
 .. code-block:: console
 
