@@ -42,5 +42,6 @@ Contents
    webtool
    cli
    deploy
+   best-practices
    
 
