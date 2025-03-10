@@ -36,9 +36,9 @@ Download the chromosome FASTA files for any target organism. You can find one us
  
 - For Plants
 
- .. code-block:: bash
+.. code-block:: bash
                 
-    https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/
+   https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/
 
 Extract all FASTA files into a directory. Index the extracted reference genome within the same directory
 
@@ -46,7 +46,55 @@ Extract all FASTA files into a directory. Index the extracted reference genome w
         
    samtools faidx ref.genome # replace ref.genome with tha actual name of the extracted reference genome 
 
+Ensure that the “+x” flag is added to the input_vcf_file and the target organism’s reference genome directory.
+Now, the Allelic Cas-OFFinder pipeline can run with:
 
+.. code-block:: bash
+        
+   ./vcf-cas-offinder.py -i input_vcf_file_path -r reference_genome_path -t target_sequence_input_file_name -d device_id 
+
+For device_id, you can use G, C, or A
+   - G represents using GPU devices, while C stands for CPUs. A represents accelerators. 
+   - If you have multiple GPU or CPU IDs, you can specify them as G0 for GPU device ID 0 and G1 for ID 1 to limit the number of devices used. 
+
+For a short help, try running:
+
+.. code-block:: bash
+        
+          ./vcf-cas-offinder.py -h 
+
+.. code-block:: bash
+        
+   usage: vcf-cas-offinder.py [-h] -i INPUT -r REF_PATH -t QUERY_INPUT -d DEVICE_ID
+
+   Identify potential off-target sites based on VCF files.
+
+   options:
+   -h, --help            show this help message and exit
+   -i INPUT, --input INPUT
+                        Path to the input VCF (Phased and single sample) file
+   -r REF_PATH, --ref_path REF_PATH
+                        Path to the target organism reference genome
+   -t QUERY_INPUT, --query_input QUERY_INPUT
+                        target sequence in the target organism genome (input.txt file)
+   -d DEVICE_ID, --device_id DEVICE_ID
+                        device_id(s): C for CPU and G for GPU, G0 for GPU device id=0
+
+You should create an input.txt file in the same directory with vcf-cas-offinder. 
+An example of an input file:
+
+.. code-block:: bash
+        
+      NNNNNNNNNNNNNNNNNNNNGG
+      GTGAAATCTAAGTGTAGAGNNN 2
+      TTGTGAAATCTAAGTGTAGNNN 2
+      CTTCACAATTATTCGCCCANNN 2
+      GGGCGAATAATTGTGAAGGNNN 2
+      CTTACAGAAACACCTGTTANNN 2
+      AGATTCAAGAATTGGTACGNNN 2
+      AACCTTCAGTTAGTCGCTANNN 2
+      CACCATAGCGACTAACTGANNN 2
+      AGCTCAGGAAGGCCCTCATNNN 2
 
 
 
