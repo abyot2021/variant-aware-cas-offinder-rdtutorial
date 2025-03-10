@@ -16,6 +16,7 @@ Required Tools for CLI and Local Deployment
 -------------------------------------------
 
 For users who prefer to work via the command-line interface or deploy Allelic-Cas-OFFinder locally, the following tools are required:
+
 1. OpenCL device
 - Create a conda environment
 
