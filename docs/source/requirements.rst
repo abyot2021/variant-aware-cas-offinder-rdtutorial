@@ -33,7 +33,7 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
     
         conda install -c bioconda bcftools
 
-    - bcftools can be used to filter specific chromosomes.
+   - bcftools can be used to filter specific chromosomes.
 
     .. code-block:: bash
   
@@ -46,7 +46,7 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
   
        conda install -c bioconda tabix
 
-    - To index a VCF file
+    - For indexing a VCF file:
 
     .. code-block:: bash
       
