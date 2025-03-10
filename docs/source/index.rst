@@ -1,17 +1,16 @@
-Welcome to Lumache's!
-=====================
+Variant-aware Cas-OFFinder
+==========================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Allelic Cas-OFFinder** is a variant aware potential off-target site identifying tool 
+based on Cas-OFFinder. Using a reference genome alone to search potential off-target sites
+has many drawbacks since it may not contain individual variants, making it challenging for
+therapeutic applications. Allelic Cas-OFFinder considers individual variants along with 
+reference genome to search potential off-target sites. 
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-.. note::
 
-   This project is under active development.
 
 Contents
 --------
@@ -19,6 +18,7 @@ Contents
 .. toctree::
 
    usage
-   api
    webtool
+   cli
+   api
 
