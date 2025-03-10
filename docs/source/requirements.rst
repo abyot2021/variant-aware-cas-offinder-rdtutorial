@@ -42,6 +42,8 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
 
 3. tabix: A tool for indexing VCF files. It is used for fast random access to VCF files.
 
+    - install tabix via conda:
+
     .. code-block:: bash
   
        conda install -c bioconda tabix
