@@ -39,20 +39,20 @@ If your VCF file is in .vcf or .vcf.gz (compressed with standard gzip) format bu
 
   - If the file is compressed with gzip (.vcf.gz but not bgzip)
 
-      - Decompress it first:
+  - Decompress it first:
 
      .. code-block:: bash
 
         gunzip Sample.vcf.gz
 
-      - And then compress it with bgzip
+   - And then compress it with bgzip
 
 
       .. code-block:: bash
 
           bgzip -c Sample.vcf > Sample.vcf.gz
 
-      - Index the bgzip-compressed file for faster access
+   - Index the bgzip-compressed file for faster access
 
       .. code-block:: bash
 
