@@ -107,6 +107,7 @@ Now you can run allelic-Cas-OFFinder as follows (using GPUs):
       ./allelic-cas-offinder.py -i /home/user/Documents/vcf_files/bgzipresultcm334.vcf.gz -r /home/user/genome/pepper_ref/GCA_000512255.2_ASM51225v2_genomic.fa -t input.txt -d G1
 
 - Replace the file paths with the actual file path. 
+
 Sample results are shown below.
 
 .. image:: https://github.com/pnucolab/variant-aware-Cas-OFFinder/blob/main/docs/images/Screenshot%202025-03-07%20231028.png
