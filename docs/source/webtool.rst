@@ -18,6 +18,7 @@ To get started, navigate to https://crispr.pnucolab.com/ and explore the platfor
 A Sample VCF file is provided for new users, which can be easily downloaded by clicking on the link. 
 This sample file serves as a great starting point for familiarizing yourself with the tool's capabilities.
 The platform's default settings include:
+
 - Target Genome: Homo sapiens (GRCh38/hg38) - Human
 - PAM Type: SpCas9 from Streptococcus pyogenes: 5'-NRG-3
 - Query Sequence: CAGCAACTCCAGGGGGCCGC
