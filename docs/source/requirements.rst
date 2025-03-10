@@ -33,21 +33,21 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
     
         conda install -c bioconda bcftools
 
-  bcftools can be used to filter specific chromosomes.
+    bcftools can be used to filter specific chromosomes.
 
-  .. code-block:: bash
+    .. code-block:: bash
   
-      bcftools view -r chr6,chr10 Sample.vcf.gz -o Output.vcf.gz
+       bcftools view -r chr6,chr10 Sample.vcf.gz -o Output.vcf.gz
 
 
 3. tabix: A tool for indexing VCF files. It is used for fast random access to VCF files.
 
-   .. code-block:: bash
+    .. code-block:: bash
   
-      conda install -c bioconda tabix
+       conda install -c bioconda tabix
 
-   - To index a VCF file
+    - To index a VCF file
 
-   .. code-block:: bash
+    .. code-block:: bash
       
-          tabix -p vcf Sample.vcf.gz
+       tabix -p vcf Sample.vcf.gz
