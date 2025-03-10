@@ -14,15 +14,14 @@ Ensure your input file is in one of these formats for compatibility with the too
 
 Required Tools for CLI and Local Deployment
 -------------------------------------------
-  
+
 For users who prefer to work via the command-line interface or deploy Allelic-Cas-OFFinder locally, the following tools are required:
-
-  - Create a conda environment
-
-    .. code-block:: bash
-      
-       conda create -n cas-offinder
 1. OpenCL device
+- Create a conda environment
+
+  .. code-block:: bash
+    
+     conda create -n cas-offinder
 
 2. bcftools: a utility for manipulating and filtering VCF files.
 
@@ -30,7 +29,7 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
 
      .. code-block:: bash
     
-       conda install -c bioconda bcftools
+        conda install -c bioconda bcftools
 
   bcftools can be used to filter specific chromosomes.
 
