@@ -1,7 +1,4 @@
 APII
 ====
 
-.. autosummary::
-   :toctree: generateded
-
-   lumache
+test 1
