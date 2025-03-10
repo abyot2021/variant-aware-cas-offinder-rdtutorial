@@ -19,5 +19,4 @@ Contents
    usage
    webtool
    cli
-   api
 
