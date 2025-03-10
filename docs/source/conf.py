@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumaches'
-copyright = '2024, Graziella'
-author = 'Graziella'
+project = 'Variant-aware-cas-offinder'
+copyright = '2024, COLAB@PNU'
+author = 'Abyot Melkamu'
 
 release = '0.1'
 version = '0.1.0'
