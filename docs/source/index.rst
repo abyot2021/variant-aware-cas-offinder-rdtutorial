@@ -16,7 +16,9 @@ Contents
 
 .. toctree::
 
+   requirements
    usage
    webtool
    cli
+   
 
