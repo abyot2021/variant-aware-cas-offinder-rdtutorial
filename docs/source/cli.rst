@@ -11,6 +11,7 @@ Create your environment:
  .. code-block:: bash
 
     conda create -n crispr
+
 Download requirements.txt and vcf-cas-offinder.py from the command-line interface directory and install all dependencies using the command:
 
 
@@ -69,7 +70,8 @@ Now, the new Cas-OFFinder pipeline can run with:
 For device_id you can use G, C or A
      - G represents using GPU devices, while C stands for CPUs. A represents accelerators. 
      - If you have multiple GPU or CPU IDs, you can specify them as G0 for GPU device ID 0 and G1 for ID 1 to limit the number of devices used. 
-For a short help, try running 
+
+For a short help, try running:
 
 
 .. code-block:: bash
