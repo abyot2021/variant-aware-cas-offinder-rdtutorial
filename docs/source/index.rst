@@ -21,4 +21,5 @@ Contents
    usage
    api
    cli
+   webtool
 
