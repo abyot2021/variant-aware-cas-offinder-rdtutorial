@@ -20,5 +20,6 @@ Contents
    usage
    webtool
    cli
+   deploy
    
 
