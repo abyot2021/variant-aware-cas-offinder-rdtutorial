@@ -4,7 +4,7 @@ Usage
 .. _installation:
 
 Installation to the CLI
-------------
+-----------------------
 
 To use Lumache, first install it using pip:
 
