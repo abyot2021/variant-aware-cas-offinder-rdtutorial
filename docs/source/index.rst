@@ -14,13 +14,13 @@ Quick Start to use the web interface
 2. Download the provided **Sample VCF file**
 3. Default settings:
 
-  - Target Genome: Homo sapiens (GRCh38/hg38)
+- Target Genome: Homo sapiens (GRCh38/hg38)
 
-  - PAM Type: SpCas9 from Streptococcus pyogenes: 5'-NRG-3'
+- PAM Type: SpCas9 from Streptococcus pyogenes: 5'-NRG-3'
 
-  - Query Sequence: CAGCAACTCCAGGGGGCCGC
+- Query Sequence: CAGCAACTCCAGGGGGCCGC
 
-  - Mismatches: 3
+- Mismatches: 3
 
 4. Click Submit to process the sample file.
 5. For custom analysis, upload your phased single-sample VCF file.
