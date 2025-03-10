@@ -19,13 +19,13 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
 
 1. OpenCL device
 
+2. bcftools: a utility for manipulating and filtering VCF files.
+
    - Create a conda environment
 
    .. code-block:: bash
     
       conda create -n cas-offinder
-
-2. bcftools: a utility for manipulating and filtering VCF files.
 
    - install bcftools via conda:
 
