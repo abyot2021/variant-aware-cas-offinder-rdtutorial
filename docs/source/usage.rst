@@ -15,4 +15,4 @@ The tool provides users with four distinct methods of interaction:
 4. API: Integrate the tool's features programatically through  API for automated workflows and system integration
 
 
-Check out the :doc:`usage` , :doc:`api`, :doc:`cli`section for further information.
+Check out the :doc:`usage` , :doc:`api`, and :doc:`cli` section for further information.
