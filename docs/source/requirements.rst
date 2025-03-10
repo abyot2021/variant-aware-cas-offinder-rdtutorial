@@ -22,9 +22,9 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
   .. code-block:: bash
       
          conda create -n cas-offinder
+1. OpenCL device
 
-
-1. bcftools: a utility for manipulating and filtering VCF files.
+2. bcftools: a utility for manipulating and filtering VCF files.
 
   - install bcftools via conda:
 
@@ -39,7 +39,7 @@ For users who prefer to work via the command-line interface or deploy Allelic-Ca
       bcftools view -r chr6,chr10 Sample.vcf.gz -o Output.vcf.gz
 
 
-2. tabix: A tool for indexing VCF files. It is used for fast random access to VCF files.
+3. tabix: A tool for indexing VCF files. It is used for fast random access to VCF files.
 
   .. code-block:: bash
   
